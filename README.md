@@ -1,90 +1,30 @@
-# Southern Oregon University Hackathon 2023
+# Shakespearean MadLib
 
-Southern Oregon University Hackathon 2023 is organized and run by the Southern Oregon University Computer Science Club.
+Southern Oregon University Hackathon 2023 project by Nole Stites
 
-This year's theme is ***Shakespeare***.
+### Description of Project
 
-For information about sponsors and prizes go to the [SOU Hackathon 2023 Website](https://nimogen.github.io/SOU2023Hackathon).
+My Hackathon project is a take on the classic game MadLibs. MadLibs, for those who do not know, is a game where an often humorous story is created by the player filling in certain blanks within the text.
 
-### Group Projects
+This project lets the user play a game of MadLibs themed after their choice of Shakespeare's plays.
 
-Group projects ***are allowed*** as long as your group fulfills these requirements:
-* Everyone in the group needs to be registered for the event.
-* Only one person should submit the repository.
-* You must specify in the README.md file that your project is a group project.
-* Group projects will be judged with more scrutiny than individual projects.
+I am using a Python-based Flask application to allow the user to interact with my program through a webpage as opposed to a terminal.
 
-### Information about Judging
+### Setup Instructions
+NOTE: The below instructions assume that you have a terminal that can run Linux commands successfully.
 
-Judging will be done by representatives from our sponsors. Projects will be judged according to [this rubric](https://docs.google.com/document/d/1T6CsYdZl9Kc5io2TSmg2rnNjFCir7HaU24Tms49SGp0/edit?usp=sharing).
+* Open a Linux terminal of your choice and clone the project using the following command:
+* * $ git clone https://github.com/NoleStites/souhackathon2023.git
+* Change your directory to be inside the project:
+* * $ cd souhackathon2023
+* Create a Python virtual environment:
+* * $ python -m venv env
+* * $ source env/bin/activate
+* Once the environment is created, install Flask with the following command:
+* * $ pip install -r requirements.txt
+* Start the Flask application:
+* * $ flask run
+* When you run the previous command, you will see an output that says "Running on http://...". Go to the URL in a browser of your choice and have fun!
 
-### Event Info
-#### Date
-
-Tuesday March 28th, 2023
-
-#### Time
-9:30am - 5:30pm (PST)
-
-#### Locations
-Computing Services 206, 480 University Way, Ashland, Oregon, 97520
-
-Zoom (link will be emailed to registered participants on March 27th)
-
-## Prerequisites
-### A GitHub Account
-
-If you do not yet have a GitHub account you can register for one [here](https://github.com/signup).
-
-### Be enrolled at one of these colleges
-
-* Southern Oregon University
-* College of the Siskiyous
-* Klamath Community College
-* Rogue Community College
-* Southwestern Oregon Community College
-* Umpqua Community College
-
-### Knowledge of (or willingness to learn) at least one of the following languages
-
-* C
-* C++
-* CSS
-* HTML
-* Java
-* JavaScript
-* Python
-
-## Rules
-* You cannot start coding before the start of Hackathon.
-* Edits or additions after the deadline will not be considered.
-* Code must be in your `main` branch in order to be considered. No code from other branches will be considered.
-
-## Getting Started
-
-Navigate to the Hackathon GitHub project at https://github.com/platt-sam/souhackathon2023 <br/>
-Click on the "Fork" button at the top of the page and create your own fork of the project.<br />
-<div> Create a new folder on your computer and clone your fork of the project into that folder:
-  git clone https://github.com/&lt;your_account_name&gt;/souhackathon2023.git </div> 
-Import the project into your favorite IDE and start getting creative with your code!
-
-### Github Tutorials 
-* General github command guide: https://github.com/git-guides
-* Cloning your repo: https://github.com/git-guides/git-clone
-* Some common github mistakes and how to fix them: https://dangitgit.com/en
-
-### Finalizing Your Submission 
-
-First, add all your code:
-
-`git add --all`
-
-Next, commit all your changes (the commit message is up to you):
-
-`git commit -m 'My 2023 Hackathon submission!'`
-
-Finally, push your commit up to your GitHub fork:
-
-`git push origin main`
 
 
