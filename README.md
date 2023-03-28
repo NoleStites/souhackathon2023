@@ -13,6 +13,8 @@ I am using a Python-based Flask application to allow the user to interact with m
 ### Setup Instructions
 NOTE: The below instructions assume that you have a terminal that can run Linux commands successfully.
 
+* If Python isn't installed, run this command:
+* * $ sudo apt-get install python3.8
 * Open a Linux terminal of your choice and clone the project using the following command:
 * * $ git clone https://github.com/NoleStites/souhackathon2023.git
 * Change your directory to be inside the project:
