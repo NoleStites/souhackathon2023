@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Your MadLib</title>
+		<link href="../static/display_MadLib_style.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<h1>Your MadLib</h1>
+		{% for line in line_list %}
+		<p>{{ line }}</p>
+		{% endfor %}
+	</body>
+</html>

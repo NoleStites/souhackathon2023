@@ -1,0 +1,51 @@
+html {
+	background-image: url("index_background.jpg");
+	background-size: cover;
+	height: 100%;
+}
+
+body {
+	margin: auto;
+	width: 50%;
+	height: 100%;
+	background-color: rgba(30, 30, 30, 0.8);
+}
+
+
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+
+h2 {
+	text-decoration: underline;
+	font-size: 30px;
+	padding: 10px;
+	color: white;
+}
+
+p#concept {
+	color: rgb(255, 255, 204);
+	font-size: 20px;
+	padding: 10px;
+}
+
+p {
+	color: rgb(255, 255, 204);
+}
+
+form {
+	margin: auto;
+	font-size: 30px;
+	color: white;
+	width: 75%;
+	padding: 10px;
+}
+
+input#submit {
+	background-color: rgb(20, 20, 20);
+	color: white;
+}

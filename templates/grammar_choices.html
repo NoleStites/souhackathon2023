@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MadLib Fill-In!</title>
+		<link href="../static/grammar_choices_style.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<h1>Fill in the Blanks!</h1>
+		<form action="{{ url_for('submit_grammar_vars') }}" method=post>
+			{% for line in empty_grammar_vars %}
+			<p>{{ line[0] }}<input type=text name="{{ line[1] }}">
+			{% endfor %}
+			<p><input id="submit" type=submit value=Sign></p> 
+		</form>
+
+		
+	</body>
+</html>
