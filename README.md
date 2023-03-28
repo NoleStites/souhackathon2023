@@ -12,6 +12,16 @@ This project lets the user play a game of MadLibs themed after their choice of S
 
 * Open a Linux terminal of your choice and clone the project using the following command:
 * * $ git clone https://github.com/NoleStites/souhackathon2023.git
+* Change your directory to be inside the project:
+* * $ cd souhackathon2023
+* Create a Python virtual environment:
+* * $ python -m venv env
+* * $ source env/bin/activate
+* Once the environment is created, install Flask with the following command:
+* * $ pip install -r requirements.txt
+* Start the Flask application:
+* * $ flask run
+* When you run the previous command, you will see an output that says "Running on http://...". Go to the URL in a browser of your choice and have fun!
 
 
 
