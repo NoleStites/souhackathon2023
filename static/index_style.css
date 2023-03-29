@@ -7,7 +7,7 @@ html {
 body {
 	margin: auto;
 	width: 50%;
-	height: 100%;
+	height: html.scrollHeight;
 	background-color: rgba(30, 30, 30, 0.8);
 }
 
