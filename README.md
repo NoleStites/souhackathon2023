@@ -6,6 +6,8 @@ Southern Oregon University Hackathon 2023 project by Nole Stites
 
 My Hackathon project is a take on the classic game MadLibs. MadLibs, for those who do not know, is a game where an often humorous story is created by the player filling in certain blanks within the text. This project lets the user play a game of MadLibs themed after their choice of Shakespeare's plays. The webpage used to play the game uses the Flask library, which is a way for programmers to have a Python-based webpage with some minor HTML and CSS. Flask is a great tool to use so that the results of the forms you fill out for the game can be accessed and editted within Python.
 
+If I had more time, I would have implemented more MadLib games and improve the interface for the finalized MadLib.
+
 ### Setup Instructions
 NOTE: The below instructions assume that you have a terminal that can run Linux commands successfully.
 
