@@ -1,0 +1,54 @@
+("Emotion",EMOTION_1), ("Verb",VERB_1), ("Object",OBJECT_1), ("Plural Occupation",PLURAL_OCCUPATION_1), ("Verb",VERB_2), ("Verb",VERB_3), ("Object",OBJECT_2), ("Noun",NOUN_1), ("Verb Ending in -ing",VERB_4), ("Noun",NOUN_2), ("Noun",NOUN_3), ("Emotion",EMOTION_2), ("Food",FOOD_1), ("Noun",NOUN_4), ("Object",OBJECT_3), ("Female Name",NAME_1), ("Location",LOCATION_1), ("Food",FOOD_2), ("Plural Object",PLURAL_OBJECT_4), ("Name",NAME_2)
+
+ANTONIO 
+
+In sooth I know not why I am so {EMOTION_1}.
+It wearies me, you say it wearies you.
+But how I caught it, found it, or came by it,
+What stuff ’tis made of, whereof it is born,
+I am to learn.
+And such a want-wit sadness makes of me
+That I have much ado to {VERB_1} myself.
+
+SALARINO 
+
+Your {OBJECT_1} is tossing on the ocean,
+There where your argosies with portly sail
+(Like signiors and rich {PLURAL_OCCUPATION_1} on the flood,
+Or, as it were, the pageants of the sea)
+Do {VERB_2} the petty traffickers
+That curtsy to them, do them reverence,
+As they fly by them with their woven {OBJECT_2}.
+
+SOLANIO 
+
+Believe me, sir, had I such venture forth,
+The better part of my {NOUN_1} would
+Be with my hopes abroad. I should be still
+stomping the grass to know where sits the {NOUN_2},
+Piring in maps for ports and piers and {NOUN_3};
+And every object that might make me fear
+Misfortune to my ventures, out of doubt
+Would make me {EMOTION_2}.
+
+SALARINO  
+
+My wind cooling my {FOOD_1}
+Would blow me to an ague when I thought
+What harm a {NOUN_4} too great might do at sea.
+I should not see the sandy {OBJECT_3} run
+But I should think of shallows and of flats,
+And see my wealthy {NAME_1} docked in sand,
+Vailing her high top lower than her ribs
+To kiss her burial. Should I go to {LOCATION_1}
+And see the holy edifice of stone
+And not bethink me straight of dangerous rocks,
+Which, touching but my gentle vessel’s side,
+Would scatter all her {FOOD_2} on the stream,
+Enrobe the roaring waters with my {PLURAL_OBJECT_4},
+And, in a word, but even now worth this
+And now worth nothing? Shall I have the thought
+To think on this, and shall I lack the thought
+That such a thing bechanced would make me sad?
+But tell not me: I know {NAME_2}
+Is sad to think upon his merchandise.

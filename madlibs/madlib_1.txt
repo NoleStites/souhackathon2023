@@ -1,0 +1,78 @@
+("Place",PLACE_1), ("Plural Animal",PLURAL_ANIMAL_1), ("Verb",VERB_1), ("Occupation",OCCUPATION_1), ("Plural Clothing Item",PLURAL_CLOTHING_ITEM_1), ("Occupation",OCCUPATION_2), ("Noun",NOUN_1), ("Action",ACTION_1), ("Adjective",ADJECTIVE_1), ("Object",OBJECT_1), ("Funny Name",FUNNY_NAME_1)
+
+FLAVIUS 
+
+Hence! Home, you idle {PLURAL_ANIMAL_1}, get you home!
+Is this a {PLACE_1}? What, know you not,
+Being mechanical, you ought not {VERB_1}
+Upon a laboring day without the sign
+Of your profession?—Speak, what trade art thou?
+
+CARPENTER  
+
+Why, sir, a {OCCUPATION_1}.
+
+MARULLUS 
+
+Where is thy leather {PLURAL_CLOTHING_ITEM_1} and thy rule?
+What dost thou with thy best apparel on?—
+You, sir, what trade are you?
+
+COBBLER  
+
+Truly, sir, in respect of a fine workman, I am
+but, as you would say, a {OCCUPATION_2}.
+
+MARULLUS 
+
+But what trade art thou? Answer me directly.
+
+COBBLER  
+
+A trade, sir, that I hope I may use with a safe
+conscience, which is indeed, sir, a mender of bad
+{NOUN_1}.
+
+FLAVIUS 
+
+What trade, thou knave? Thou naughty knave, what
+trade?
+
+COBBLER 
+
+Nay, I {ACTION_1} you, sir, be not out with me.
+Yet if you be out, sir, I can mend you.
+
+MARULLUS 
+
+What mean’st thou by that? Mend me, thou {ADJECTIVE_1}
+fellow?
+
+COBBLER  
+
+Why, sir, cobble you.
+
+FLAVIUS  
+
+Thou art a cobbler, art thou?
+
+COBBLER  
+
+Truly, sir, all that I live by is with the
+awl. I meddle with no tradesman’s matters nor
+women’s matters, but withal I am indeed, sir, a
+surgeon to old {OBJECT_1}: when they are in great danger,
+I recover them. As proper men as ever trod upon
+neat’s leather have gone upon my handiwork.
+
+FLAVIUS 
+
+But wherefore art not in thy shop today?
+Why dost thou lead these men about the streets?
+
+COBBLER  
+
+Truly, sir, to wear out their shoes, to
+get myself into more work. But indeed, sir, we
+make holiday to see {FUNNY_NAME_1} and to rejoice in his
+triumph.

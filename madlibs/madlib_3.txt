@@ -1,0 +1,61 @@
+("Verb",VERB_1), ("Noun",NOUN_1), ("Same Noun",SAME_NOUN_1), ("Object",OBJECT_1), ("Verb (past tense)",VERB_PAST_TENSE_1), ("Noun",NOUN_2), ("Location",LOCATION_1), ("Plural Animal",PLURAL_ANIMAL_1), ("Adjective",ADJECTIVE_1), ("Plural Noun",PLURAL_NOUN_1), ("Plural Animal",PLURAL_ANIMAL_2), ("Number",NUMBER_1), ("Plural Weapon",PLURAL_WEAPON_1), ("Clothing Item",CLOTHING_ITEM_1)
+
+Act II, Scene II
+
+JULIET
+
+What man art thou that thus {VERB_1}'d in night
+So stumblest on my counsel?
+
+ROMEO
+
+By a {NOUN_1}
+I know not how to tell thee who I am:
+My {SAME_NOUN_1}, dear saint, is hateful to myself,
+Because it is an enemy to thee;
+Had I it written, I would tear the {OBJECT_1}.
+
+JULIET
+
+My ears have not yet {VERB_PAST_TENSE_1} a hundred words
+Of that tongue's utterance, yet I know the {NOUN_2}:
+Art thou not Romeo and a Montague?
+
+ROMEO
+
+Neither, fair saint, if either thee dislike.
+
+JULIET
+
+How camest thou hither, tell me, and wherefore?
+The {LOCATION_1} walls are high and hard to climb,
+And the place death, considering who thou art,
+If any of my {PLURAL_ANIMAL_1} find thee here.
+
+ROMEO
+
+With love's {ADJECTIVE_1} wings did I o'er-perch these walls;
+For stony limits cannot hold {PLURAL_NOUN_1} out,
+And what love can do that dares love attempt;
+Therefore thy {PLURAL_ANIMAL_2} are no let to me.
+
+JULIET
+
+If they do see thee, they will murder thee.
+
+ROMEO
+
+Alack, there lies more peril in thine eye
+Than twelve of their {PLURAL_WEAPON_1}: look thou but sweet,
+And I am proof against their enmity.
+
+JULIET
+
+I would not for the world they saw thee here.
+
+ROMEO
+
+I have night's {CLOTHING_ITEM_1} to hide me from their sight;
+And but thou love me, let them find me here:
+My life were better ended by their hate,
+Than death prorogued, wanting of thy love.
