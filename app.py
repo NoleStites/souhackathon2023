@@ -1,23 +1,31 @@
 from flask import Flask, redirect, request, url_for, render_template
 from model_pylist import model
 
-app = Flask(__name__)
+app = Flask(__name__)   # our flask application
 model = model()
 
 @app.route('/')
 @app.route('/index.html')
 def index():
+    """
+    Takes the user to the landing page of the game
+    """
     return render_template('index.html')
+
 
 @app.route('/grammar_choices')
 def grammar_choices():
+    """
+    After choosing a play, takes the user to a new webpage to fill in the blanks
+    """
     return render_template('grammar_choices.html', empty_grammar_vars=model.getEmptyGrammar())
 
-def readMadLib(play):
+
+def readMadLib(text_file):
     """
     This function will read and store information from the empty MabLib based on the user's play choice
     """
-    madlib = open("./madlibs/madlib_1.txt", "r")    # read from madlib file
+    madlib = open(text_file, "r")    # read from madlib file
 
     # Get the lines from the files and parse the script from the grammar variables
     lines = madlib.readlines()
@@ -41,12 +49,20 @@ def readMadLib(play):
     madlib.close()  # finished reading the file, so close it
     return True
 
+
 @app.route('/display_MadLib')
 def display_MadLib():
+    """
+    Takes the user to a new webpage containing the finalized MadLib with their input filled in
+    """
     return render_template('display_MadLib.html', line_list=model.getFilledGrammar())    
+
 
 @app.route('/submit_grammar_vars', methods=['POST'])
 def submit_grammar_vars():
+    """
+    Result location of user submitting their choices for filling in the blanks
+    """
     # Taking the user-provided values and populating the grammars
     grammar_dict = {}
     for grammar in model.getEmptyGrammar():
@@ -56,17 +72,31 @@ def submit_grammar_vars():
     
     return redirect(url_for('display_MadLib'))
     
+
 @app.route('/choose_play', methods=['POST'])
 def choose_play():
+    """
+    Result location of user submitting their choice of play on the landing page
+    """
     # Get response form website form and fetch data from a MadLib for the chosen play
     play_choice = request.form["play"]
-    readMadLib(play_choice)
+
+    # Checking which play was chosen so to grab the correct MadLib
+    if play_choice == "julius_caesar":
+        madlib_file = "./madlibs/madlib_1.txt"
+    elif play_choice == "merchant_of_venice":
+        madlib_file = "./madlibs/madlib_2.txt"
+    else:
+        madlib_file = "./madlibs/madlib_3.txt"
+
+
+    readMadLib(madlib_file)
 
     model.assignPlay(play_choice)
     
     return redirect(url_for('grammar_choices'))
 
 
-
+# Run the app upon use of the "flask run" command
 if __name__ == '__main__':
    app.run(host='0.0.0.0', port=5000, debug=True) 

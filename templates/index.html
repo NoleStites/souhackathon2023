@@ -11,10 +11,9 @@
 		<p id="concept">For those unfamiliar with the game MadLibs, it is a game in which a fun story is presented with certain key words missing and the player's job is to fill in the blanks without any context as to the story itself, making for a very humorous time. This Shakespearean MadLib is much the same, only the stories are scenes taken from your choice of Shakespeare's plays.</p>
 		<h2>Choose Your Play:</h2>
 		<form action="{{ url_for('choose_play') }}" method=post>
-			<p>Julius Caesar<input type=radio name=play value="julius_caesar">
+			<p>Julius Caesar<input type=radio name=play value="julius_caesar" checked>
 			<p>Merchant of Venice<input type=radio name=play value="merchant_of_venice">
 			<p>Romeo and Juliet<input type=radio name=play value="romeo_and_juliet">
-			<p>Midsummer Night's Dream<input type=radio name=play value="midsummer_nights_dream">
 			<p><input id="submit" type=submit value=Submit></p>
 		</form>
 	</body>
